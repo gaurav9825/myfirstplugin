@@ -1,0 +1,26 @@
+{
+  "name": "testplugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "@webpack-cli/generate-plugin": "^0.1.2",
+    "@webpack-cli/serve": "^0.1.2",
+    "bluebird": "^3.5.3",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-defaults": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "debug": "node --inspect --debug-brk $(npm bin)/webpack --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
